@@ -1,4 +1,4 @@
-# LOCALTIME
+# LOCALTIME v1.0
 
 Show the local time as a widget.  
 ローカルタイムを表示させるウィジェットです。
@@ -7,9 +7,13 @@ Show the local time as a widget.
 
 As a [global README file](../../../), put each contents of the files to the every tabs.  
 LOCALE file should be ignored. That is just for development.
+DATA tab should be `{}` when the first setting.
+
+---
 
 親階層の [README](../../../) の通り、各ファイルの内容を、各タブにコピーして下さい。
 LOCALE ファイルは無視して下さい。開発用のファイルです。
+DATA タブの中身は、作成時に `{}` としておくと、一旦データが消えた状態になります。。
 
 ## Points
 
