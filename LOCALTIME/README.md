@@ -29,22 +29,22 @@ Format should be written with following format texts.
 
 Format 欄は以下のフォーマットに従って記載できます。
 
-- %YYYY%: 4 digits year / 4 桁年（ex. 2016）
-- %YY%: 2 digits year / 2 桁年（ex. 16）
-- %MMMM%: Full month name / 月の長い表記、日本語では数字のみ、英語では March など（ex. March / (for ja-JP) 3）
-- %MMM%: Short month name / 月の短い表記、日本語では数字のみ、英語では Mar.など（ex. Mar / (for ja-JP) 3）
-- %MM%: 2 digits month / 2 桁月（ex. 03）
-- %M%: Month (short number) / 月（ex. 3）
-- %DD%: 2 digits date / 2 桁日（ex. 02）
-- %D%: Date (short number) / 日（ex. 2）
-- %HH%: 2 digits Hour at 24 Hours / 2 桁で表した 24 時間表記の時（ex. 06 / 15）
-- %H%: Hour at 24 Hours (short number) / 24 時間表記の時（ex. 6 / 15）
-- %h%: 2 digits Hour at 12 Hours / 2 桁で表した 12 時間表記の時（ex. 03 / 09）
-- %h%: Hour at 12 Hours (short number) / 12 時間表記の時（ex. 3 / 9）
-- %A%: AM/PM / 午前/午後表記（ex. PM / (for ja-JP) 午後）
-- %mm%: 2 digits Minutes / 2 桁分（ex. 08 / 24）
-- %m%: Minutes (short number) / 分（ex. 8 / 24）
-- %ss%: 2 digits Seconds / 2 桁秒（ex. 09）
-- %s%: Seconds (short number) / 秒（ex. 9）
-- %W%: Long weekday name / 曜日の長い表記（ex. Wednesday / 水曜日）
-- %w%: Short weekday name / 曜日の短い表記（ex. Wed / 水）
+- `%YYYY%`: 4 digits year / 4 桁年（ex. 2016）
+- `%YY%`: 2 digits year / 2 桁年（ex. 16）
+- `%MMMM%`: Full month name / 月の長い表記、日本語では数字のみ、英語では March など（ex. March / (for ja-JP) 3）
+- `%MMM%`: Short month name / 月の短い表記、日本語では数字のみ、英語では Mar.など（ex. Mar / (for ja-JP) 3）
+- `%MM%`: 2 digits month / 2 桁月（ex. 03）
+- `%M%`: Month (short number) / 月（ex. 3）
+- `%DD%`: 2 digits date / 2 桁日（ex. 02）
+- `%D%`: Date (short number) / 日（ex. 2）
+- `%HH%`: 2 digits Hour at 24 Hours / 2 桁で表した 24 時間表記の時（ex. 06 / 15）
+- `%H%`: Hour at 24 Hours (short number) / 24 時間表記の時（ex. 6 / 15）
+- `%h%`: 2 digits Hour at 12 Hours / 2 桁で表した 12 時間表記の時（ex. 03 / 09）
+- `%h%`: Hour at 12 Hours (short number) / 12 時間表記の時（ex. 3 / 9）
+- `%A%`: AM/PM / 午前/午後表記（ex. PM / (for ja-JP) 午後）
+- `%mm%`: 2 digits Minutes / 2 桁分（ex. 08 / 24）
+- `%m%`: Minutes (short number) / 分（ex. 8 / 24）
+- `%ss%`: 2 digits Seconds / 2 桁秒（ex. 09）
+- `%s%`: Seconds (short number) / 秒（ex. 9）
+- `%W%`: Long weekday name / 曜日の長い表記（ex. Wednesday / 水曜日）
+- `%w%`: Short weekday name / 曜日の短い表記（ex. Wed / 水）
