@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Uni Sans Heavy CAPS";
+  src: url("//db.onlinewebfonts.com/t/161edcf1defa00caa0730d5eb8de8bbc.eot");
+  src: url("//db.onlinewebfonts.com/t/161edcf1defa00caa0730d5eb8de8bbc.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/161edcf1defa00caa0730d5eb8de8bbc.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/161edcf1defa00caa0730d5eb8de8bbc.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/161edcf1defa00caa0730d5eb8de8bbc.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/161edcf1defa00caa0730d5eb8de8bbc.svg#Uni Sans Heavy CAPS") format("svg");
+}
+
+@font-face {
+  font-family: "Uni Sans Heavy Italic CAPS";
+  src: url("//db.onlinewebfonts.com/t/08d650121338aabfb572832ded6e2ba6.eot");
+  src: url("//db.onlinewebfonts.com/t/08d650121338aabfb572832ded6e2ba6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/08d650121338aabfb572832ded6e2ba6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/08d650121338aabfb572832ded6e2ba6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/08d650121338aabfb572832ded6e2ba6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/08d650121338aabfb572832ded6e2ba6.svg#Uni Sans Heavy Italic CAPS") format("svg");
+}
+
+* {
+    font-family: 'Uni Sans Heavy Italic CAPS', sans-serif;
+    color: {{fontColor}};
+    font-size: 14px;
+    line-height: 1;
+    overflow: hidden;
+    background-color: {{bgColor}};
+    border: none;
+    border-radius: 0;
+}
+
+#timewrapper {
+  width: 100%;
+  height: 100%;
+ /* display: flex;
+  align-items: center;*/
+}
+
+#time {
+  width: 100%;
+  font-size: {{fontSize}}px;
+  color: {{fontColor}};
+  text-align: {{textAlign}};
+  text-shadow:
+    -1px -1px 0 {{textShadow}},
+    1px -1px 0 {{textShadow}},
+    -1px 1px 0 {{textShadow}},
+     1px 1px 0 {{textShadow}};
+}

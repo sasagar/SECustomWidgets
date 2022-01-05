@@ -1,0 +1,52 @@
+{
+  "format": {
+    "type": "text",
+    "label": "Format String:",
+    "value": "%HH%:%mm%:%ss% %w% %DD% %MMM% %YYYY%"
+  },
+  "timezonetext": {
+    "type": "text",
+    "label": "Text to show the timezone.(ex: GMT, UTC)",
+    "value": "JST"
+  },
+  "textAlign": {
+    "type": "dropdown",
+    "label": "Time text alignment.",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "center": "Center",
+      "right": "Right"
+    }
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font size. (px)",
+    "value": 24,
+    "step": 1
+  },
+  "locale": {
+    "type": "dropdown",
+    "label": "Locale",
+    "value": "en-US",
+    "options": {
+      "en-US": "English (United States)",
+      "ja-JP": "Japanese (Japan)",
+    }
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgba(255,255,255,1)"
+  },
+  "textShadow": {
+    "type": "colorpicker",
+    "label": "Text shadow",
+    "value": "rgba(0, 0, 0, 0.7)"
+  },
+  "bgColor": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "rgb(0, 0, 0)"
+  }
+}
