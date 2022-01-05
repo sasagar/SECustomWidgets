@@ -5,10 +5,10 @@ Show the local time as a widget.
 
 ## How to use
 
-As a [global README file](../), put each contents of the files to the every tabs.  
+As a [global README file](../../../), put each contents of the files to the every tabs.  
 LOCALE file should be ignored. That is just for development.
 
-親階層の [README](../) の通り、各ファイルの内容を、各タブにコピーして下さい。
+親階層の [README](../../../) の通り、各ファイルの内容を、各タブにコピーして下さい。
 LOCALE ファイルは無視して下さい。開発用のファイルです。
 
 ## Points
